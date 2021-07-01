@@ -6,4 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".MainActivityKotlin">
 
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment"
+        android:name="com.example.weatherapp.MainWindowFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
